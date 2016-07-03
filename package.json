@@ -1,0 +1,24 @@
+{
+  "name": "blocks",
+  "version": "4.0.0",
+  "description": "block",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victormelnyk/blocks.git"
+  },
+  "author": "Victor Melnyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victormelnyk/blocks/issues"
+  },
+  "homepage": "https://github.com/victormelnyk/blocks#readme",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "winston": "^2.2.0"
+  }
+}
