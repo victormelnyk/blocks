@@ -1,6 +1,6 @@
 const winston = require('winston');
-const services = require('./services');
+const provider = require('./provider');
 
 winston.level = 'debug';
 
-services.add('logger', winston);// todo move to services
+provider.addInstance('logger', winston);
