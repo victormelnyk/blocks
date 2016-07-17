@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb/base",
+  "plugins": ["node"],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "globals": {},
+  "rules": {}
+}
