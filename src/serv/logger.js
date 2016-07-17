@@ -1,5 +1,6 @@
 const winston = require('winston');
+const services = require('./services');
 
 winston.level = 'debug';
 
-module.exports = winston;
+services.add('logger', winston);// todo move to services

@@ -1,4 +1,8 @@
-const logger = require('./serv/logger');
+require('./serv/logger');// todo implement auto load
+
+const services = require('./serv/services');
+
+const logger = services.get('logger');
 
 const Page = require('./lib/page');
 
